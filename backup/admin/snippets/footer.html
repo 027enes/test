@@ -1,0 +1,32 @@
+
+<!-- FOOTER -->
+<div id="footer">
+    <div class="ortala">
+        <div class="footsol">
+            <img src="images/footlogo.jpg" alt="Horizon Kömür">
+            <h1>Copyright © 2016 Tüm Hakları Saklıdır.</h1>
+            <a target="_blank" href="http://fagusmedia.com">Tasarım ve Uygulama Fagusmedia</a>
+        </div>
+        <div class="footorta">
+            <h1>E-Tahsilat</h1>
+            <a href="<cms:pages masterpage='iletisim.php'><cms:show blink /></cms:pages>" target="_blank"><img src="images/ok.png" alt="Bayi Girişi"></a>
+        </div>
+        <div class="footsag">
+           <cms:pages masterpage='iletisim.php' >
+           
+            <h1>Bize Ulaşın</h1>
+            <h2><cms:show unvan1/></h2>
+            <p>ADRES :<cms:show adres1 /></p>
+            <p>TEL : <a href="tel:<cms:show tel1 />"><cms:show tel1 /></a>  FAKS : <cms:show fax1 /></p>
+            <p>MAİL : <a href="mailto:<cms:show mail1 />"><cms:show mail1 /></a></p>
+            <ul>
+                <li><a target="_blank" href="<cms:show face />"><img src="images/sos3.png" alt="Facebook"></a></li>
+                <li><a target="_blank" href="<cms:show twit />"><img src="images/sos4.png" alt="Twitter"></a></li>
+            </ul>
+            </cms:pages>
+            <div class="clear"></div>
+        </div>
+    <div class="clear"></div>
+    </div>
+</div>
+<!-- ## FOOTER -->

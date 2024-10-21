@@ -1,0 +1,165 @@
+;@charset "utf-8";
+body {background-color: #fff;}
+img{ max-width: 100%;} 
+.clear { clear:both; }
+#header {width: 100%;background-color: #f3f3f3; position: relative; z-index: 2; height: 110px;}
+.ortala { margin: 0 auto; width: 1172px; position: relative ;z-index: 3;}
+.logo {display: block;float: left; width: 18%; padding: 0px 1%; background-color: #fff; height: 145px;}
+.logo img {display: block; margin: 40px auto 0px; max-width: 100%;}
+#menu { width: 60%;float: left; }
+nav { float: left; width: 85%; }
+nav ul { margin: 20px 0 0 0; }
+nav ul li {float: left; margin: 0 1%; width: 18%;overflow: hidden; height: 90px;}
+nav ul li:hover { background-color: #459d20;}
+nav ul li:hover a, nav ul li a:hover { color: #fff;}
+nav ul li a {display: block;font-weight: normal;font-size: 15px;color: #459d20;text-align: center; line-height: 20px;font-family: 'graphik-regular'; }
+.open-menu { display: none; }
+nav ul li a i {display: block; width: 42px; height: 42px; margin: 10px auto;}
+.ana { background: url(../images/icon-1.png) no-repeat; }
+nav ul li:hover .ana { background: url(../images/icon-1-hover.png) no-repeat; }
+.kur { background: url(../images/icon-2.png) no-repeat; }
+nav ul li:hover .kur { background: url(../images/icon-2-hover.png) no-repeat; }
+.uru { background: url(../images/icon-3.png) no-repeat; }
+nav ul li:hover .uru { background: url(../images/icon-3-hover.png) no-repeat; }
+.biz { background: url(../images/icon-4.png) no-repeat; }
+nav ul li:hover .biz { background: url(../images/icon-4-hover.png) no-repeat; }
+.mar { background: url(../images/icon-5.png) no-repeat; }
+nav ul li:hover .mar { background: url(../images/icon-5-hover.png) no-repeat; }
+
+.sosyal { float: right; width: 15%; padding: 40px 0 0 0;}
+.sosyal li {float: left;margin: 0 auto; width: 50%;}
+.sosyal li a {display: block;}
+.sosyal li a img {display: block; margin: 0 auto;}
+.bayi {display: block; float: right; width: 20%; background-color: #5bbc31; overflow: hidden; height: 110px;}
+.bayi span {display: block; margin: 30px auto 0px; width: 220px; padding: 0 5px;}
+.bayi span img {display: block; float: left; margin: 0 10px 0 0;}
+.bayi span strong {display: block; float: left;font-weight: normal;font-size: 23px;color: #fff;font-family: 'graphik-regular'; line-height: 60px;}
+.slider {position: relative; z-index: 1; top: -35px; }
+.sli {display: block; position: absolute; z-index: 3; left: 50%; width: 768px; margin-left: -384px; top: 30%;}
+.sli strong {position: relative;display: block;font-weight: normal;font-size: 50px;color: #ffffff;text-align: center;font-family: 'graphik-black';line-height: 60px;}
+.sli em {display: block; padding: 10px 0px;font-weight: normal;font-size: 20px;color: #ffffff;text-align: center;font-family: 'graphik-light';line-height: 30px;}
+.sli a {display: block; padding: 10px 30px; border: 2px solid #fff; text-align: left; margin: 10px auto; font-weight: normal;font-size: 14px;color: #fff;font-family: 'graphik-light'; line-height: 20px; width: 130px;}
+.sli a img {display: block; float: right; width: auto;}
+#footer { width:100%;background-color: #5bbc31; padding: 30px 0px; z-index: 1; position: relative; margin-top: -35px;}
+.footsol { width: 20%; float: left; padding: 15px 0px;}
+.footsol img {display: block; margin-bottom: 10px;}
+.footsol h1, .footsol a {display: block; font-weight: normal;font-size: 13px;color: #fff;font-family: 'graphik-light'; line-height: 20px;}
+.footorta { float: left; width: 30%;}
+.footorta h1 {font-weight: normal;font-size: 30px;color: #fff;font-family: 'graphik-light'; line-height: 40px; text-align: center;}
+.footorta a {display: block;}
+.footorta a img {display: block; margin: 15px auto 0px;}
+.footsag {float: left; width: 50%;}
+.footsag h1 {font-weight: normal;font-size: 30px;color: #fff;font-family: 'graphik-light'; line-height: 40px;}
+.footsag h2 {font-weight: normal;font-size: 13px;color: #fff;font-family: 'graphik-light'; line-height: 20px; padding: 10px 0px;}
+.footsag p {font-weight: normal;font-size: 13px;color: #fff;font-family: 'graphik-light'; line-height: 20px;}
+.footsag p a {font-weight: normal;font-size: 13px;color: #fff;font-family: 'graphik-light'; line-height: 20px;}
+.footsag ul { padding: 15px 0px;}
+.footsag ul li {float: left; margin: 0 10px 0 0;}
+.footsag ul li a {display: block;}
+#banner {height: 400px;width: 100%;display: table;position: relative; z-index: 1; top: -35px; }
+#banner h1 {font-weight:normal;font-size:70px;color:#fff;font-family: 'graphik-medium';line-height: 60px;text-align: left;display: table-cell;vertical-align: middle;background-color: rgba(0, 0, 0, 0.3); padding-left: 2%;}
+.efek {position: absolute; z-index: 2;background-color: rgba(0, 0, 0, 0.3); left: 0; top: 0; bottom: 0; right: 0; width: 100%; height: 100%; }
+#icerik {padding: 30px 0px;position: relative; z-index: 1; top: -35px;}
+.sagmenu {width: 30%;float: right; margin-top: -100px; position: relative; z-index: 3;}
+.sagmenu h1 {background-color: #459d20;overflow: hidden; width: 90%; padding: 30px 5% 15px; }
+.sagmenu h1 img {display: block; margin: 0 10px 0 0;float: left;}
+.sagmenu h1 span {display: block;float: left;font-weight:normal;font-size:30px;color:#fff;font-family: 'Ubuntu', sans-serif;line-height: 35px;}
+.sagmenu ul {width: 100%;  background-color: #5bbc31;padding: 10px 0 50px 0px; }
+.sagmenu ul li { margin: 5px auto ; width: 100%;  }
+.sagmenu ul li a {display: block; line-height: 20px; font-weight:normal;font-size:15px;color:#fff;font-family: 'graphik-regular';padding: 10px 0px 10px 30px;}
+.icerik {width: 63%;float: left; padding: 30px 2%; overflow: hidden;}
+.baslik {font-weight: normal;font-size: 25px;color: #000000;font-family: 'graphik-medium'; line-height: 25px;}
+.yazi {padding: 10px 0px;overflow: hidden;font-weight: normal;font-size: 13px;color: #000000;font-family: 'graphik-regular';line-height: 20px;}
+.yazi p { padding: 5px 0px;font-weight: normal;font-size: 13px;color: #000000;font-family: 'graphik-regular';line-height: 20px;}
+.urunler { width: 100%;}
+.urunler li {width: 30%; margin: 10px 1.5% 0px; float: left; }
+.urunler li span {display: block;font-weight: normal;font-size: 18px;color: #000000;font-family: 'graphik-medium';line-height: 30px; }
+.urunler li a {display: block;}
+.urunler li a img { display: block; width: 100%;}
+.iletisim { width:96%; padding: 10px 2%; }
+.iletisim li {padding: 10px 0px; font-weight: normal;color: #000000;font-size:16px;font-family: 'graphik-regular'; line-height: 24px;}
+.iletisim li a {font-weight: normal;color: #000000;font-size:16px;font-family: 'graphik-regular'; line-height: 20px;}
+.harita {width: 96%%; height: 340px; margin: 10px 2% 0px;}
+.harita iframe {width: 100%;height: 340px;}
+.success {font-weight: normal;color: #5bbc31;font-size:14px;font-family: 'graphik-regular'; line-height: 20px;}
+.form { padding: 15px 0 15px 0;}
+.input {display: block; border: 2px solid #5bbc31; width: 40%; padding: 10px 2%;  margin: 10px 2%; height: 30px; line-height: 30px; font-weight: normal; color: #5e4773; font-size: 13px; font-family: 'graphik-regular'; float: left;   }
+.txt {display: block; border: 2px solid #5bbc31; min-width: 67%;max-width: 67%; padding: 10px 2%;  margin: 10px 0 0 2%; min-height: 140px;max-height: 140px; line-height: 20px; font-weight: normal; color: #5bbc31; font-size: 13px; font-family: 'graphik-regular';; float: left; }
+.gonder {display: block; border: none; width: 20%; float: left; background-color: #5bbc31; height: 164px;cursor: pointer;margin: 10px 2% 0 2% ; font-weight: normal; color: #fff; font-size: 18px; font-family: 'graphik-medium';  letter-spacing: 2px;}
+.form ::-webkit-input-placeholder { /* WebKit browsers */ color:#5bbc31; }
+.form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color:#5bbc31; opacity:  1; }
+.form ::-moz-placeholder { /* Mozilla Firefox 19+ */ color:#5bbc31; opacity:  1;  }
+.form :-ms-input-placeholder { /* Internet Explorer 10+ */ color:#5bbc31; }
+
+.sec {display: block; border: 2px solid #5bbc31; width: 44%;  margin: 10px 2%; height: 30px; line-height: 30px; font-weight: normal; color: #5e4773; font-size: 13px; font-family: 'graphik-regular'; float: left;   }
+
+.fancybox {display: block; width: 23%; margin: 10px 1%; float: left; }
+.fancybox1 {display: block; width: 31%; margin: 10px 1%; float: left; }
+
+
+@media only screen and (max-width : 1172px) {
+.ortala { width: 100%;}
+#footer .ortala { width: 98%; padding: 0 1%;}
+    
+}
+
+
+@media only screen and (max-width : 1024px) {
+nav {height: auto;position: absolute;left: 0;right: 0;top: 80px;z-index: 9;padding: 0px; width: 100%; margin: 0px;}
+nav ul {width: 100%;display: none;height: auto;background-color: #2d2382;padding: 10px 0px; margin: 0px; }
+nav ul li {height: auto;float: none;width: 100%;margin: 0 0 0 0;  }
+nav ul li a {line-height: 30px;padding: 5px 0;color: #fff;text-align: center;font-size: 17px;border-top: none; }
+nav ul li a:hover {border-top: none;}
+nav ul li a img {display: none;}
+nav ul li a i {display: none;}
+.open-menu {display: block;  cursor: pointer;  width: 38px; height: 32px; margin: 30px 1% 0 1%; float: right;  }
+.open-menu:after {content:"";  display: inline-block; position: absolute; }
+#header { height: 80px;}
+.slider , #banner, #icerik{ top:0px;}
+.sosyal {display: none;}
+.bayi { padding: 0px; height: 80px; width: auto;}
+.bayi span {margin: 0px; padding: 20px 10px 0 10px; width: auto;}
+.bayi span img {height: 40px;}
+.bayi span strong { line-height: 40px; font-size: 17px;}
+.logo {height: 80px; width: auto;}
+.logo img { max-height: 70px; margin: 5px 0;}
+#footer { margin: 0px;}    
+.footsol {width: 60%; padding: 0px;  } 
+.footsol img {margin: 0 auto;}
+.footsol h1, .footsol a {text-align: center;}
+.footorta {width: 40%; padding: 10px 0 0 0;}
+.footsag {float: none; width: 100%; clear: both; text-align: center; padding: 25px 0 0 0;}
+.footsag ul { width: 100px; margin: 10px auto;}    
+.sagmenu {width: 100%;float: none; margin-top: 0px; position: relative; z-index: 3;}
+.sagmenu ul {width: 100%;}
+#icerik {padding: 0px;}
+.icerik {padding: 15px 2%; width: 96%;}
+#banner {height: 200px;}
+#banner h1 {font-size: 30px;}
+    
+}     
+
+
+
+@media only screen and (max-width : 769px) { 
+.sli { top: 10%; width: 94%; left: 3%; right: 3%; margin-left: 0px;}    
+.sli strong {font-size: 35px;line-height: 45px;}
+.sli em { padding: 10px 0px; font-size: 15px;line-height: 20px;}
+.sli a { padding: 5px 10px;}
+#banner {height: 200px; }
+.harita , .iletisim {width: 96%;float: none;}
+.input {width: 90%;float: none;   }
+.txt { min-width: 90%;max-width: 90%; padding: 10px 2%;  margin: 10px 2% 0 2%; float: left; }
+.gonder {width: 94%;border: 2px solid #453157; float: left;height: 60px;margin: 10px 2% 0 2% ; }
+    
+}
+
+@media only screen and (max-width : 480px) {  
+#header {height: 160px; background-color: #fff;}
+.footsol,.footorta {width: 100%; padding: 0px;  } 
+.bayi {clear: both; width: 100%;}
+.bayi span { margin: 0px auto; width: 180px;}
+.urunler li {width: 86%; margin: 10px 7% 0px; float: none; }
+.harita ,.harita iframe {height: 240px;}
+    .fancybox, .fancybox1 { width: 48% !important; }
+}

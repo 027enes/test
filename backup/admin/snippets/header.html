@@ -1,0 +1,33 @@
+
+</head>
+<body>
+<!-- HEADER -->    
+<div id="header">
+    <a class="logo" href="index.php" ><img src="images/logo.jpg" alt="Horizon Kömür"></a>
+    <a class="open-menu"><img src="images/mobil-menu.png" alt="Horizon Kömür"></a>
+    <div id="menu">
+        <nav class="clearfix">
+            <ul class="clearfix">
+                <li><a href="index.php"><i class="ana"></i><span>ANA SAYFA</span></a></li>
+                <cms:pages masterpage='kurumsal.php' custom_field='folder_weights' orderby='folder_weights' order='asc' limit='1'>
+                <li><a href="<cms:show k_page_link />"><i class="kur"></i><span>KURUMSAL</span></a></li>
+                </cms:pages>
+                <cms:pages masterpage='kampanyalar.php' custom_field='folder_weights' orderby='folder_weights' order='asc' limit='1'>
+                <li><a href="<cms:show k_page_link />"><i class="uru"></i><span>KAMPANYALAR</span></a></li>
+                </cms:pages>
+                <li><a href="markalar.php"><i class="mar"></i><span>MARKALAR</span></a></li>
+                <li><a href="iletisim.php"><i class="biz"></i><span>BİZE ULAŞIN</span></a></li>
+            </ul>
+        </nav>
+        <div class="sosyal">
+            <ul>
+                <li><a target="_blank" href="<cms:pages masterpage='iletisim.php'><cms:show face /></cms:pages>"><img src="images/sos1.png" alt="Facebook"></a></li>
+                <li><a target="_blank" href="<cms:pages masterpage='iletisim.php'><cms:show twit /></cms:pages>"><img src="images/sos2.png" alt="Twitter"></a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <a  class="bayi" target="_blank" href="<cms:pages masterpage='iletisim.php'><cms:show blink /></cms:pages>"><span><img src="images/ok.png" alt="Bayi Girişi"><strong>E-TAHSİLAT</strong></span></a>
+    <div class="clear"></div> 
+</div>   
+<!-- ### HEADER -->     
